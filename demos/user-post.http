@@ -2,9 +2,9 @@ POST http://localhost:3000/users/
 Content-Type: application/json
 
 {
-  "name": "Awng",
-  "username": "awng",
-  "email": "awng4352@yahoo.com",
+  "name": "pooja",
+  "username": "pooja",
+  "email": "pooja4352@yahoo.com",
   "address": {
     "street": "Bourbon Street",
     "suite": "Suite 420",
