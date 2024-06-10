@@ -25,7 +25,7 @@
 
       fetch("http://localhost:3000/users/" + user.id, requestInit)
         .then((response) => response.json())
-        .then((user) => {
+        .then(() => {
           console.log(`Successfully deleted ${user.name}`);
         });
     </script>
