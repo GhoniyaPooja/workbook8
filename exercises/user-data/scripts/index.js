@@ -29,13 +29,13 @@ function fetchAndDisplayUserData() {
                 const editLink = document.createElement("a");
                 editLink.href = `edit.html?id=${user.id}`;
                 editLink.textContent = "Edit" + " ";
-                editLink.classList.add("link-success", "-sm", "mr-2");
+                editLink.classList.add("link-success");
                 actionsCell.appendChild(editLink);
 
                 const deleteLink = document.createElement("a");
                 deleteLink.href = `delete.html?id=${user.id}`;
                 deleteLink.textContent = "Delete";
-                deleteLink.classList.add("link-danger", "link-sm");
+                deleteLink.classList.add("link-danger");
                 actionsCell.appendChild(deleteLink);
 
 
