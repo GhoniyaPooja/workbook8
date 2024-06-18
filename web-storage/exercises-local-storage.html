@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorage Test</title>
+    <script>
+     
+        function storeValues() {
+            localStorage.setItem('value1', 'Hello, World!');
+            localStorage.setItem('value2', 'Another value');
+        }
+
+        
+        function displayValue() {
+            let value1 = localStorage.getItem('value1');
+            alert(value1);
+        }
+
+        
+        window.onload = storeValues;
+    </script>
+</head>
+<body>
+    <h1>LocalStorage</h1>
+    <button onclick="displayValue()">Show Value</button>
+</body>
+</html>
